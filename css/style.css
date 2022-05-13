@@ -5,9 +5,58 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-h1,h2,h3,h4,h5{
-  font-family: 'Fjalla One', sans-serif;
+h2,h3,h4,h5{
+  font-family: 'Fjalla One', fantasy;
 }
+
+h1{
+  font-family: 'Fjalla One', unset;
+}
+
+.notauno{
+  border: 5px solid greenyellow;
+  width: 1050px;
+  margin: 0px 50px 20px;
+  padding: 30px 50px;
+}
+
+.notados{
+  border: 5px solid dimgrey;
+  width: 1050px;
+  margin: 0px 50px 20px;
+  padding: 30px 50px;
+}
+
+.ph{
+  padding: 30px 50px;
+  font-family: roboto;
+}
+
+.mosto{
+  padding: 30px 50px;
+  font-family: roboto;
+}
+
+.nosotros{
+  padding: 10px 50px 20px;
+  margin: 0px 10px 20px;
+}
+
+.somos{
+  border: 5px solid black;
+  width: 500px;
+  margin: 0px 50px 20px;
+  padding: 30px 50px;
+}
+
+.titulo{
+  padding: 30px 50px;
+}
+
+.fotonosotros{
+  margin: -40px 50px 20px;
+}
+
 
 .cover {
   height:400px;
@@ -39,12 +88,47 @@ h1,h2,h3,h4,h5{
 }
 
 .btn {
-    padding: 10px 10px;
+    padding: 10px 10px 10px;
     border: 0 none;
     font-weight: 700;
     letter-spacing: 5px;
     text-transform: uppercase;
     padding-top: 10px 10px;
+    margin: -150px 10px 10px;
+}
+
+.btn-cursosonline{
+    padding: 10px 50px 10px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    padding-top: 10px 10px;
+    margin: -150px 10px 10px;
+    background-color: skyblue;
+    border-radius: 5px;
+    transition: .3s ease all;
+}
+
+.btn-cursosonline:hover{
+  background: black;
+}
+
+.btn-cursopresencial{
+    padding: 10px 30px 10px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    padding-top: 10px 10px;
+    margin: 100px 30px 50px;
+    background-color: skyblue;
+    border-radius: 5px;
+    transition: .3s ease all;
+}
+
+.btn-cursopresencial:hover{
+  background: black;
 }
 
 .card-body {
@@ -215,3 +299,4 @@ padding-bottom: auto;
         padding: 35px 0px;
     }
 }
+
