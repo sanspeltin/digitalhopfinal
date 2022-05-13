@@ -1,0 +1,302 @@
+/* CSS files add styling rules to your content */
+
+body {
+  margin: 0em;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h2,h3,h4,h5{
+  font-family: 'Fjalla One', fantasy;
+}
+
+h1{
+  font-family: 'Fjalla One', unset;
+}
+
+.notauno{
+  border: 5px solid greenyellow;
+  width: 1050px;
+  margin: 0px 50px 20px;
+  padding: 30px 50px;
+}
+
+.notados{
+  border: 5px solid dimgrey;
+  width: 1050px;
+  margin: 0px 50px 20px;
+  padding: 30px 50px;
+}
+
+.ph{
+  padding: 30px 50px;
+  font-family: roboto;
+}
+
+.mosto{
+  padding: 30px 50px;
+  font-family: roboto;
+}
+
+.nosotros{
+  padding: 10px 50px 20px;
+  margin: 0px 10px 20px;
+}
+
+.somos{
+  border: 5px solid black;
+  width: 500px;
+  margin: 0px 50px 20px;
+  padding: 30px 50px;
+}
+
+.titulo{
+  padding: 30px 50px;
+}
+
+.fotonosotros{
+  margin: -40px 50px 20px;
+}
+
+
+.cover {
+  height:400px;
+  background-image: url(../img/BANNER.png);
+  color:white;
+  background-size: cover;
+  background-position:center;
+  background-color:rgba(0,0,0,0.5);
+  background-blend-mode: darken ;
+}
+
+
+.caja{
+  display: flex;
+}
+
+.caja >div{
+  width: 50%;
+  padding: 10px;
+}
+.cover-small{
+  height:200px;
+  background-blend-mode:normal;
+}
+
+.card{
+  border: 0 !important;
+  box-shadow: 0 1px 10px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.btn {
+    padding: 10px 10px 10px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-top: 10px 10px;
+    margin: -150px 10px 10px;
+}
+
+.btn-cursosonline{
+    padding: 10px 50px 10px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    padding-top: 10px 10px;
+    margin: -150px 10px 10px;
+    background-color: skyblue;
+    border-radius: 5px;
+    transition: .3s ease all;
+}
+
+.btn-cursosonline:hover{
+  background: black;
+}
+
+.btn-cursopresencial{
+    padding: 10px 30px 10px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    padding-top: 10px 10px;
+    margin: 100px 30px 50px;
+    background-color: skyblue;
+    border-radius: 5px;
+    transition: .3s ease all;
+}
+
+.btn-cursopresencial:hover{
+  background: black;
+}
+
+.card-body {
+padding-bottom: auto; 
+}
+
+.card-title{
+  min-height:3rem;
+}
+.card-text{
+  min-height:10rem;
+}
+
+.product-stripe, .slider{
+  overflow-x:scroll;
+  padding-top:1rem;
+  padding-bottom:1rem;
+}
+
+.stripe-container, .slider-container{
+  display:inline-block;
+}
+
+.stripe-container .card{
+  width:300px;
+  flex-shrink:0;
+  margin-right:1rem;
+  display: inline-block;
+}
+
+.responsive-iframe{
+  position:relative;
+  padding-top:56.25%;
+}
+.responsive-iframe iframe{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.slider{
+  overflow-x:hidden;
+  
+}
+.slider-container{
+  transform:translateX(0);
+  animation: slider 20s infinite;
+}
+
+.image-container{
+  width:100%;
+  padding-top:56.25%;
+  background-size:cover;
+  background-position:center;
+  flex-shrink:0;
+}
+
+.avatar{
+  width:120px;
+  height:120px;
+  background-size:cover;
+  background-position:center;
+  margin: 0 auto;
+}
+
+@keyframes slider{
+  0%{
+    transform:translateX(0);
+  }
+  
+  20%{
+    transform:translateX(0);
+  }
+  
+  25%{
+    transform:translateX(-100%);
+  }
+  
+  45%{
+    transform:translateX(-100%);
+  }
+  
+  50%{
+    transform:translateX(-200%);
+  }
+  
+  70%{
+    transform:translateX(-200%);
+  }
+  
+  75%{
+    transform:translateX(-300%);
+  }
+  
+  95%{
+    transform:translateX(-300%);
+  }
+  
+  100%{
+    transform:translateX(0);
+  }
+}
+
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: black;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
